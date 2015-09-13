@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="workmanagement">
+<head>
+    <meta charset="UTF-8">
+    <title>Work Management</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app/bower_components/foundation/css/normalize.css"/>
+    <link rel="stylesheet" href="app/bower_components/foundation/css/foundation.css"/>
+    <link rel="stylesheet" href="app/styles/app.css"/>
+</head>
+<body ng-controller="WorkManagementController as wmc">
+<div ng-include="'app/common/layout/header.html'"></div>
+<div ui-view class="main-content"></div>
+<div ng-include="'app/common/layout/footer.html'"></div>
+<script src="assets/lib/jquery-2.1.4.js"></script>
+<script src="assets/lib/angular.js"></script>
+<script src="assets/lib/ui-router.js"></script>
+<script src="app/bower_components/foundation/js/vendor/modernizr.js"></script>
+<script src="app/bower_components/foundation/js/foundation.js"></script>
+<script src="app/configuration/app-modules.js"></script>
+<script src="app/configuration/app.js"></script>
+<script src="app/configuration/app-route.js"></script>
+<script src="app/common/WorkManagementController.js"></script>
+<script src="app/common/WorkManagementService.js"></script>
+<script src="app/common/WorkManagementDirective.js"></script>
+<script src="app/login/loginController.js"></script>
+<script src="app/login/loginService.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

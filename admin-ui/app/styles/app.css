@@ -1,0 +1,61 @@
+.header-module .header-title {
+  font-family: "Roboto Slab", serif;
+  color: white; }
+.header-module .header-logo {
+  font-family: FontAwesome;
+  margin-right: 15px; }
+.header-module .type-demo {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1px 20px; }
+.header-module ul.inline-list {
+  margin: 10px 10px 10px 0; }
+
+footer p.copyright {
+  text-align: center;
+  color: #999;
+  font-size: 0.9em; }
+
+body .divLoginModule {
+  font-size: 12px; }
+  body .divLoginModule .signin-module {
+    float: left; }
+  @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    body .divLoginModule .signup-module {
+      border-left: 1px solid #cccccc; } }
+  body .divLoginModule input {
+    margin: 1rem 0 0 0; }
+    body .divLoginModule input:last-child {
+      margin: 1rem 0 1rem 0; }
+
+body {
+  font-family: Helvetica, Roboto, Arial, sans-serif; }
+  body .page-level-error {
+    padding: 15px;
+    background-color: rgba(234, 17, 17, 0.81);
+    color: #FFF;
+    font-size: 1.2em;
+    border: none; }
+  body .main-content {
+    margin: 20px 0 60px; }
+  body .clear {
+    clear: both; }
+  body a:hover, body a:focus {
+    color: #0000EE;
+    text-decoration: underline; }
+  body .fl-lt {
+    float: left; }
+  body .fl-rt {
+    float: right; }
+  body .ada-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden; }
+  body .clear {
+    clear: both; }
+  body .errorfield {
+    color: red; }
+
+/*# sourceMappingURL=app.css.map */

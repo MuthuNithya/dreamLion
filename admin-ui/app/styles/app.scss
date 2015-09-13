@@ -1,0 +1,44 @@
+@import "../common/layout/layout";
+@import "../login/login";
+
+
+body{
+  font-family: Helvetica, Roboto, Arial, sans-serif;
+  .page-level-error{
+    padding: 15px;
+    background-color: rgba(234, 17, 17, 0.81);
+    color: #FFF;
+    font-size: 1.2em;
+    border: none;
+  }
+  .main-content{
+    margin: 20px 0 60px;
+  }
+  .clear{
+    clear: both;
+  }
+  a:hover,a:focus{
+    color:#0000EE;
+    text-decoration: underline;
+  }
+  .fl-lt{
+    float:left;
+  }
+  .fl-rt{
+    float:right;
+  }
+  .ada-hidden{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+  .clear{
+    clear:both;
+  }
+  .errorfield{
+    color:red;
+  }
+}

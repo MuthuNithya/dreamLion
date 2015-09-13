@@ -1,0 +1,22 @@
+$font-size : 12px;
+$nonretina : "screen and (min-device-width: 1200px) and (max-device-width: 1600px)  and (-webkit-min-device-pixel-ratio: 1)";
+
+body {
+  .divLoginModule {
+    font-size: $font-size;
+    .signin-module{
+      float:left;
+    }
+    @media #{$nonretina} {
+    .signup-module{
+        border-left: 1px solid #cccccc;
+      }
+    }
+    input{
+      margin: 1rem 0 0 0;
+      &:last-child{
+        margin: 1rem 0 1rem 0;
+      }
+    }
+  }
+}
